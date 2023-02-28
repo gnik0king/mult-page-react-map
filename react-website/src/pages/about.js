@@ -5,7 +5,7 @@ const About = () => {
     return (
         <div>
             <h1>
-                We. Are. Spiffo's. List.
+                We. Are. Spiffo's. List
             </h1>
             <GoogleMapComponent/>
         </div>
