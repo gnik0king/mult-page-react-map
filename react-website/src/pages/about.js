@@ -1,4 +1,5 @@
 import React from "react";
+import { GoogleMapComponent } from "../Components/GoogleMapsElements";
 
 const About = () => {
     return (
@@ -6,6 +7,7 @@ const About = () => {
             <h1>
                 We. Are. Spiffo's. List.
             </h1>
+            <GoogleMapComponent/>
         </div>
     );
 };
