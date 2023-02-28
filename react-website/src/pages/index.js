@@ -1,28 +1,11 @@
-import React from "react";
-import { Nav, NavLink, NavMenu }
-	from "../Components/NavbarElements";
+import React from 'react';
 
-const Navbar = () => {
+const Home = () => {
 return (
-	<>
-	<Nav>
-		<NavMenu>
-		<NavLink to="/about" activeStyle>
-			About
-		</NavLink>
-		<NavLink to="/contact" activeStyle>
-			Contact Us
-		</NavLink>
-		<NavLink to="/blogs" activeStyle>
-			Blogs
-		</NavLink>
-		<NavLink to="/sign-up" activeStyle>
-			Sign Up
-		</NavLink>
-		</NavMenu>
-	</Nav>
-	</>
+	<div>
+	<h1>Welcome to Spiffo's List</h1>
+	</div>
 );
 };
 
-export default Navbar;
+export default Home;
