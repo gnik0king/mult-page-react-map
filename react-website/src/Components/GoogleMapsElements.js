@@ -97,9 +97,7 @@ const mapStyles ={
   };
 
   render() {
-    const onLoad = infoWindow => {
-      console.log('infoWindow: ', infoWindow)
-    }
+    
     return (
         <Map
           google={this.props.google}

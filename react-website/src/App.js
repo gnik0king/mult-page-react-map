@@ -6,6 +6,8 @@ import Contact from './pages/contact';
 import Blogs from './pages/blogs';
 import Listing from './pages/listing';
 import Home from './pages/index';
+import mapHome from './pages/mapHome';
+import mapDirections from './pages/mapDirections';
 
 function App() {
   return (
@@ -17,9 +19,20 @@ function App() {
         <Route exact path='/contact' element={<Contact/>}/>
         <Route exact path='/blogs' element={<Blogs/>}/>
         <Route exact path='/listing' element={<Listing/>}/>
+        <Route exact path='/mapHome' element={<mapHome/>}/>
+        <Route exact path='/mapDirections' element={<mapDirections/>}/>
       </Routes>
     </Router>
   );
 }
+
+
+//Routes:
+/*
+Routes/pages:
+-Map home -> only shows listing
+-Directions map
+*/
+
 
 export default App;

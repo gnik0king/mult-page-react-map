@@ -19,6 +19,12 @@ return (
 		<NavLink to="/listing" activeStyle>
 			Listing
 		</NavLink>
+        <NavLink to="/mapHome" activeStyle>
+            Mapped Listings
+        </NavLink>
+        <NavLink to="/mapDirections" activeStyle>
+            Directions
+        </NavLink>
 		</NavMenu>
 	</Nav>
 	</>
